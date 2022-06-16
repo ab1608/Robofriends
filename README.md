@@ -11,3 +11,8 @@ It is my first time using React and learning the fundamentals of this framework.
 # Sources
 - https://jsonplaceholder.typicode.com/
 - https://robohash.org/
+
+# How to run 
+- Clone this repo
+- Run `npm install` in the command line
+- Run `npm start` 
