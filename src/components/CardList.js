@@ -10,6 +10,11 @@ const CardList = (props) => {
     will now return a card with its properties.
      */
     const {robots} = props;
+    //
+    // if(true) {
+    //     throw new Error("We're working on it!")
+    // }
+
     return (
         robots.map(robot => <Card
             id={robot.id}

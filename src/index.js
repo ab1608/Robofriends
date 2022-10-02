@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './containers/App.js'
-
 import './index.css';
-
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-        <div>
-            <App></App>
-        </div>
-
+    <div>
+        <App></App>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
