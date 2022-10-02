@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardList from "../components/CardList";
 import SearchBox from '../components/SearchBox'
 import ScrollBox from '../components/ScrollBox'
@@ -15,7 +15,10 @@ and, they are known as Containers.
 
 Components that do not modify the state of other components are pure components.
  */
-class App extends React.Component {
+const App = () => {
+    // Declare two state variables using Hooks
+    const [allRobots, searchField] = useState(0);
+
     constructor(props) {
         super(props);
         this.state = {
@@ -62,4 +65,3 @@ class App extends React.Component {
 }
 
 export default App;
-
